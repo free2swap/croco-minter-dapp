@@ -1,9 +1,9 @@
-const contractAddress = "0x4B3dab803b30240F571d9E2a0E0536E2a623052c"; // Replace with your own contract address
-const chain = 'rinkeby'; // rinkeby, polygon, or ethereum
+const contractAddress = "0x38Bd6884884497eD50A3dd03666612998F2f4b62"; // Replace with your own contract address
+const chain = 'polygon'; // rinkeby, polygon, or ethereum
 
-const welcome_h1 = "Welcome to the CrocodotLive NFT Project!!";
+const welcome_h1 = "Welcome to the CrocoDotLive NFT Project!!";
 const welcome_h2 = "Connect to MetaMask to Get Started";
-const welcome_p = "This is the first series of CrocodotLive NFT collection of our Crocoverse, all NFTs are going to show up in the future cartoons, comic books and Crocoverse Gaming. Those who hold crocos NFTs would receive airdrop for the second series, invited to join our club, taking part in the design and Governance of the future of Crocoverse. We hope you'll love it and enjoy it.";
+const welcome_p = "This is the first series of CrocoDotLive NFT collection of our Crocoverse, all NFTs are going to show up in the future cartoons, comic books and Crocoverse Gaming. Hope you'll love and enjoy it.";
 const h1_presale_coming_soon = "NFT Drop Coming Soon!!";
 const h1_presale_mint = "Pre-Sale Minting Open!!";
 const h1_public_mint = "Public Minting Open!!";

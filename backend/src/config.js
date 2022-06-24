@@ -43,31 +43,31 @@ const extraMetadata = {
 // ** REQUIRED **
 const AUTH = process.env.NFTPORT_API_KEY; // Set this in the .env file to prevent exposing your API key when pushing to Github
 const LIMIT = 2; // Your API key rate limit
-const CHAIN = 'rinkeby'; // only rinkeby, polygon, or ethereum
+const CHAIN = 'polygon'; // only rinkeby, polygon, or ethereum
 
 // REQUIRED CONTRACT DETAILS THAT CANNOT BE UPDATED LATER!
 const CONTRACT_NAME = 'CROCO.LIVE';
 const CONTRACT_SYMBOL = 'CL';
 const METADATA_UPDATABLE = true; // set to false if you don't want to allow metadata updates after minting
-const OWNER_ADDRESS = '0x4e499e2EcF08FB6A5f94d4DE57857fB70A756275';
-const TREASURY_ADDRESS = '0x4e499e2EcF08FB6A5f94d4DE57857fB70A756275';
+const OWNER_ADDRESS = '0xedC2941D4C579338Ca5e542e65f9e3796e17C24b';
+const TREASURY_ADDRESS = '0xedC2941D4C579338Ca5e542e65f9e3796e17C24b';
 const MAX_SUPPLY = 5000; // The maximum number of NFTs that can be minted. CANNOT BE UPDATED!
-const MINT_PRICE = 0.01; // Minting price per NFT. Rinkeby = ETH, Ethereum = ETH, Polygon = MATIC. CANNOT BE UPDATED!
+const MINT_PRICE = 10; // Minting price per NFT. Rinkeby = ETH, Ethereum = ETH, Polygon = MATIC. CANNOT BE UPDATED!
 const TOKENS_PER_MINT = 10; // maximum number of NFTs a user can mint in a single transaction. CANNOT BE UPDATED!
 
 // REQUIRED CONTRACT DETAILS THAT CAN BE UPDATED LATER.
-const PUBLIC_MINT_START_DATE = "2022-06-24T11:30:48+00:00"; // This is required. Eg: 2022-02-08T11:30:48+00:00
+const PUBLIC_MINT_START_DATE = "2022-07-20T11:30:48+00:00"; // This is required. Eg: 2022-02-08T11:30:48+00:00
 
 // OPTIONAL CONTRACT DETAILS THAT CAN BE UPDATED LATER.
-const PRESALE_MINT_START_DATE = "2022-06-24T11:30:48+00:00"; // Optional. Eg: 2022-02-08T11:30:48+00:00
+const PRESALE_MINT_START_DATE = "2022-07-15T11:30:48+00:00"; // Optional. Eg: 2022-02-08T11:30:48+00:00
 const ROYALTY_SHARE = 1000; // Percentage of the token price that goes to the royalty address. 100 bps = 1%
-const ROYALTY_ADDRESS = "0x4e499e2EcF08FB6A5f94d4DE57857fB70A756275"; // Address that will receive the royalty
+const ROYALTY_ADDRESS = "0xedC2941D4C579338Ca5e542e65f9e3796e17C24b"; // Address that will receive the royalty
 const BASE_URI = null; // only update if you want to manually set the base uri
 const PREREVEAL_TOKEN_URI = null; // only update if you want to manually set the prereveal token uri
-const PRESALE_WHITELISTED_ADDRESSES = ["0xA72C632f532995DAC7F0396557C60b1Efa88c1dC","0x4e499e2EcF08FB6A5f94d4DE57857fB70A756275"]; // only update if you want to manually set the whitelisted addresses
+const PRESALE_WHITELISTED_ADDRESSES = []; // only update if you want to manually set the whitelisted addresses
 
 // ** OPTIONAL **
-let CONTRACT_ADDRESS = "0x4B3dab803b30240F571d9E2a0E0536E2a623052c"; // If you want to manually include it
+let CONTRACT_ADDRESS = "0x38Bd6884884497eD50A3dd03666612998F2f4b62"; // If you want to manually include it
 
 // Generic Metadata is optional if you want to reveal your NFTs
 const GENERIC = true; // Set to true if you want to upload generic metas and reveal the real NFTs in the future
@@ -95,7 +95,7 @@ const solanaMetadata = {
   external_url: "https://www.youtube.com/c/hashlipsnft",
   creators: [
     {
-      address: "0x4e499e2EcF08FB6A5f94d4DE57857fB70A756275",
+      address: "0xedC2941D4C579338Ca5e542e65f9e3796e17C24b",
       share: 100,
     },
   ],
